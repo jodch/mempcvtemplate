@@ -9,6 +9,8 @@ Use it for whatever you want, and be sure to reach me out  [Instagram](https://i
 
 Created with ⚡ by [jodch.com](https://jodch.com).
 
+Project made with React, Nextjs, Rellax, Sass, Swiper and more.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with 
 
 [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
