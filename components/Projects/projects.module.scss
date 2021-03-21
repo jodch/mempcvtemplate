@@ -1,0 +1,202 @@
+.projectscont {
+  width: 100%;
+  max-width: 98vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10rem 0 10rem;
+  .titlerow {
+    display: flex;
+    flex-direction: row;
+    height: 18rem;
+    align-items: flex-start;
+    @media (max-width: 770px) {
+      height: fit-content;
+      margin-bottom: 8rem;
+    }
+    .titlecomp {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 30vw;
+      min-width: 220px;
+      margin: 5rem 0 0 0;
+      p {
+        font-family: "Rammetto One", cursive;
+        font-size: 26pt;
+        color: #fca51f;
+        text-align: right;
+        line-height: 28pt;
+      }
+      .blueline {
+        height: 2rem;
+        width: 35vw;
+        min-width: 220px;
+        background: #264079;
+        mix-blend-mode: hard-light;
+        margin: -2.5rem;
+      }
+    }
+    .outline {
+      height: 35vw;
+      width: 35vw;
+      border: #264079 solid 5px;
+      mix-blend-mode: hard-light;
+      border-radius: 100%;
+      margin: -8rem 0 0 8rem;
+      @media (max-width: 600px) {
+        margin: -8rem 0 0 0rem;
+      }
+    }
+    .redcircle {
+      height: 35vw;
+      width: 35vw;
+      background: #f85252;
+      mix-blend-mode: multiply;
+      border-radius: 100%;
+      margin: -13rem 0 0 -13rem;
+    }
+  }
+  .projectrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 30px 0 50px 0;
+    flex-wrap: wrap;
+    p {
+      color: #264079;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      font-size: 12pt;
+      width: 320px;
+      z-index: 5;
+    }
+
+    .projectcol {
+      padding: 1rem;
+      width: 320px;
+      display: flex;
+      flex-direction: row;
+    }
+    .projectcoldes {
+      @extend .projectcol;
+      @media (max-width: 1000px) {
+        display: none;
+      }
+    }
+  }
+
+  .textcont {
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    width: 600px;
+    height: 350px;
+    .title {
+      font-family: "Rammetto One", cursive;
+      font-size: 40pt;
+      color: #fca51f;
+      position: relative;
+      top: -70%;
+      z-index: 1;
+    }
+    p {
+      color: #264079;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      z-index: 3;
+      font-size: 12pt;
+      position: relative;
+    }
+  }
+}
+
+.cardcontainer {
+  width: 280px;
+  height: fit-content;
+  min-height: 560px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 14px;
+  background: #fdfdfd;
+  margin: 20px 20px;
+  animation-name: fadeOutOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
+  -webkit-box-shadow: 10px 10px 0px 4px rgba(26, 56, 111, 0.9);
+  box-shadow: 10px 10px 0px 4px rgba(26, 56, 111, 0.9);
+  .img {
+    width: 280px;
+    height: 150px;
+    border-radius: 14px 14px 0 0;
+    background: pink;
+  }
+  .text {
+    word-wrap: break-word;
+    width: 260px;
+    max-width: 260px;
+    font-size: 10pt !important;
+    color: rgb(120, 120, 120) !important;
+    margin: 5px 0 5px 0;
+  }
+  .link {
+    @extend .text;
+    color: #007bff !important;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 260px;
+    .col {
+      width: 120px;
+      max-width: 120px;
+    }
+  }
+  .textcol {
+    @extend .text;
+    width: 120px;
+    max-width: 120px;
+    margin: 8px 0;
+  }
+  .title {
+    @extend .text;
+    margin: 5px 0 5px 0;
+    font-size: 12pt !important;
+    color: rgb(96, 96, 96) !important;
+  }
+}
+
+.cardactive {
+  @extend .cardcontainer;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
+  -webkit-box-shadow: 10px 10px 0px 4px rgba(255, 165, 53, 0.9);
+  box-shadow: 10px 10px 0px 4px rgba(255, 165, 53, 0.9);
+}
+@keyframes fadeInOpacity {
+  0% {
+    -webkit-box-shadow: 10px 10px 0px 4px rgba(26, 56, 111, 0.9);
+    box-shadow: 10px 10px 0px 4px rgba(26, 56, 111, 0.9);
+  }
+  100% {
+    -webkit-box-shadow: 10px 10px 0px 4px rgba(255, 165, 53, 0.9);
+    box-shadow: 10px 10px 0px 4px rgba(255, 165, 53, 0.9);
+  }
+}
+@keyframes fadeOutOpacity {
+  0% {
+    -webkit-box-shadow: 10px 10px 0px 4px rgba(255, 165, 53, 0.9);
+    box-shadow: 10px 10px 0px 4px rgba(255, 165, 53, 0.9);
+  }
+  100% {
+    -webkit-box-shadow: 10px 10px 0px 4px rgba(26, 56, 111, 0.9);
+    box-shadow: 10px 10px 0px 4px rgba(26, 56, 111, 0.9);
+  }
+}

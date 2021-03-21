@@ -1,0 +1,34 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  padding: 0.5rem 0 0 1vw;
+  background: #1f325c;
+  mix-blend-mode: hard-light;
+  color: whitesmoke;
+}
+
+.footer p {
+  font-weight: 100;
+  letter-spacing: 2px;
+}

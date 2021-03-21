@@ -1,0 +1,49 @@
+.title {
+  font-family: "Rammetto One", cursive;
+  font-size: 15pt;
+  color: #283ff5;
+  margin: 0;
+}
+.custombrand {
+  margin: 0 25px 0 40px;
+}
+.rrsscont {
+  height: 25px;
+  font-size: 12pt;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  padding: 0 1rem;
+  .icon {
+    height: 20px;
+    margin: 0 10px;
+  }
+}
+
+.navbarcont {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0 0 0;
+  border-right: 1px solid #283ff5;
+  position: fixed;
+  background: #ededed;
+  width: 100%;
+
+  .itemcont {
+    height: fit-content;
+    padding: 1rem 0;
+    width: 6vw;
+    margin: 30px 0;
+    p {
+      transform: rotate(270deg);
+      text-align: right;
+      font-family: "Open Sans", sans-serif;
+      color: #283ff5;
+      font-size: 14px;
+    }
+  }
+}

@@ -1,0 +1,71 @@
+.formcont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 10rem;
+  padding: 10rem 0;
+  align-items: center;
+  @media (max-width: 770px) {
+    padding: 3rem 0;
+  }
+  .row {
+    width: 500px;
+    padding: 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    @media (max-width: 770px) {
+      width: 90vw;
+    }
+    .title {
+      font-family: "Rammetto One", cursive;
+      font-size: 40pt;
+      color: #f9b339;
+      text-align: right;
+      text-align: center;
+      justify-self: center;
+      white-space: nowrap;
+    }
+  }
+
+  .rowform {
+    @extend .row;
+    flex-wrap: wrap;
+    .infocont {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: baseline;
+      align-items: flex-end;
+      position: relative;
+      .textcont {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1.5rem 0 0 1rem;
+        position: relative;
+        @media (max-width: 770px) {
+          padding: 1.5rem 0 0 0;
+        }
+        .title {
+          font-family: "Rammetto One", cursive;
+          font-size: 20pt;
+          color: #f9b339;
+          text-align: left;
+        }
+        p {
+          color: #264079;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 600;
+          font-size: 10pt;
+          width: 250px;
+          position: relative;
+          line-height: 2;
+          margin: 0 0 0 0;
+        }
+      }
+    }
+  }
+}

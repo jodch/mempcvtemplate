@@ -1,0 +1,83 @@
+.aboutcont {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3rem 0 3rem;
+  @media (max-width: 700px) {
+    padding: 1rem 0 5rem 0;
+    height: fit-content;
+  }
+  .yellowball {
+    height: 20vh;
+    width: 20vh;
+    min-width: 10rem;
+    min-height: 10rem;
+    background: #fca51f;
+    opacity: 0.8;
+    border-radius: 100%;
+    margin: 5vh 0 0 5vh;
+  }
+  .textcont {
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    width: 600px;
+    height: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -10vh 0 0 0;
+    @media (max-width: 770px) {
+      width: 90vw;
+      height: fit-content;
+    }
+    .title {
+      font-family: "Rammetto One", cursive;
+      font-size: 70pt;
+      color: #d6d6d6;
+      position: absolute;
+      @media (max-width: 770px) {
+        color: #d6d6d6;
+        font-size: 40pt;
+        mix-blend-mode: multiply;
+      }
+    }
+    p {
+      color: #264079;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+
+      font-size: 12pt;
+      position: relative;
+      @media (max-width: 770px) {
+        width: 75vw;
+      }
+    }
+  }
+  .comp1 {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column-reverse;
+    align-self: flex-end;
+    padding: 0 0 3rem 0;
+    .redball {
+      width: 3rem;
+      height: 3rem;
+      border-radius: 100%;
+      background: #f85252;
+      mix-blend-mode: multiply;
+      margin: 0 0 0 5vw;
+    }
+    .blueline {
+      height: 2rem;
+      width: 45vw;
+      background: #264079;
+      mix-blend-mode: hard-light;
+      margin-top: -1.5rem;
+    }
+  }
+}

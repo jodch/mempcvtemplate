@@ -1,0 +1,52 @@
+[
+    {
+        "id":1,
+        "img":"https://via.placeholder.com/280x150",
+        "title":"Project Title",
+        "role":"Role",
+        "link":"https://google.com",
+        "description":"Odit est Ipsam erat ad subvenire v iste dui w ad-praesent per capiat dolorum ea decipitur superbam commune hac s detulit secuti caduca id crudelitas vindica ut Etiam",
+        "features":["Feature 1", "Feature 2", "Feature 4", "Feature 5", "Feature 6"],
+        "stack":["Tech", "Tech", "Tech", "Tech","Tech" ]
+    },
+    {
+        "id":2,
+        "img":"https://via.placeholder.com/280x150",
+        "title":"Project Title",
+        "role":"Role",
+        "link":"https://google.com",
+        "description":"Odit est Ipsam erat ad subvenire v iste dui w ad-praesent per capiat dolorum ea decipitur superbam commune hac s detulit secuti caduca id crudelitas vindica ut Etiam",
+        "features":["Feature 1", "Feature 2", "Feature 4", "Feature 5", "Feature 6"],
+        "stack":["Tech", "Tech", "Tech", "Tech","Tech" ]
+    },
+    {
+        "id":3,
+        "img":"https://via.placeholder.com/280x150",
+        "title":"Project Title",
+        "role":"Role",
+        "link":"https://google.com",
+        "description":"Odit est Ipsam erat ad subvenire v iste dui w ad-praesent per capiat dolorum ea decipitur superbam commune hac s detulit secuti caduca id crudelitas vindica ut Etiam",
+        "features":["Feature 1", "Feature 2", "Feature 4", "Feature 5", "Feature 6"],
+        "stack":["Tech", "Tech", "Tech", "Tech","Tech" ]
+    },
+    {
+        "id":4,
+        "img":"https://via.placeholder.com/280x150",
+        "title":"Project Title",
+        "role":"Role",
+        "link":"https://google.com",
+        "description":"Odit est Ipsam erat ad subvenire v iste dui w ad-praesent per capiat dolorum ea decipitur superbam commune hac s detulit secuti caduca id crudelitas vindica ut Etiam",
+        "features":["Feature 1", "Feature 2", "Feature 4", "Feature 5", "Feature 6"],
+        "stack":["Tech", "Tech", "Tech", "Tech","Tech" ]
+    },
+    {
+        "id":5,
+        "img":"https://via.placeholder.com/280x150",
+        "title":"Project Title",
+        "role":"Role",
+        "link":"https://google.com",
+        "description":"Odit est Ipsam erat ad subvenire v iste dui w ad-praesent per capiat dolorum ea decipitur superbam commune hac s detulit secuti caduca id crudelitas vindica ut Etiam",
+        "features":["Feature 1", "Feature 2", "Feature 4", "Feature 5", "Feature 6"],
+        "stack":["Tech", "Tech", "Tech", "Tech","Tech" ]
+    }
+]
