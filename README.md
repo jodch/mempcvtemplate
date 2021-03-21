@@ -1,8 +1,6 @@
 
 # Free React cv page template
 
-![Memp React template live](https://jodch.com)
-
 **Memp** is a **Memp is a Nextjs+React cv template designed**  for anyone to use to display its cv, for developers/frontenders,ui-ux designers who want a bold, animated, simple, customizable website. Its ready to deploy.
 
 Use it for whatever you want, and be sure to reach me out  [Instagram](https://instagram.com/jod.ch) if you build anything cool/useful with it.
